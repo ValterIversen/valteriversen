@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectHero = () => {        
+const ProjectsHero = () => {        
     return (
         <section className="pt-12 bg-gray-50 sm:pt-16">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -60,4 +60,4 @@ const ProjectHero = () => {
         </section>
     )
 }
-export default ProjectHero;
+export default ProjectsHero;
