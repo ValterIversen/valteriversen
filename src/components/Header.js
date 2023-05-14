@@ -1,6 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 
+import Logo from '../components/Logo'
+
 const Header = ({children}) => {
     const [expanded, setExpanded] = useState(false);
 
@@ -10,9 +12,7 @@ const Header = ({children}) => {
             <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <div className="flex-shrink-0">
-                        <a href="#" title="" className="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2">
-                            <img className="w-auto h-8" src="https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg" alt="" />
-                        </a>
+                        <Logo />
                     </div>
         
                     <div className="flex lg:hidden">
