@@ -1,4 +1,5 @@
 import React from 'react';
+import Projects from './Projects';
 
 const ProjectsHero = () => {        
     return (
@@ -46,33 +47,7 @@ const ProjectsHero = () => {
 
                 </div>
             </div>
-
-            <div className="mt-10 pb-12 bg-white">
-                <div className="relative mt-12">
-                    <div className="absolute inset-0 h-2/3 bg-gray-50"></div>
-                    <div className="relative mx-auto drop-shadow-2xl">
-                        <video className="lg:max-w-4xl mx-auto w-11/12 rounded-xl" autoPlay loop muted>      
-                            <source src="./sheeptown.mp4" type="video/mp4"/>       
-                        </video>
-                    </div>
-                </div>
-                <div className="relative mt-12">
-                    <div className="absolute inset-0 h-2/3 bg-gray-50"></div>
-                    <div className="relative mx-auto drop-shadow-2xl">
-                        <video className="lg:max-w-4xl mx-auto w-11/12 rounded-xl" autoPlay loop muted>      
-                            <source src="./sitechacara.mp4" type="video/mp4"/>       
-                        </video>
-                    </div>
-                </div>
-                <div className="relative mt-12">
-                    <div className="absolute inset-0 h-2/3 bg-gray-50"></div>
-                    <div className="relative mx-auto drop-shadow-2xl">
-                        <video className="lg:max-w-4xl mx-auto w-11/12 rounded-xl" autoPlay loop muted>      
-                            <source src="./automatation.mp4" type="video/mp4"/>       
-                        </video>
-                    </div>
-                </div>
-            </div>
+            <Projects />
         </section>
     )
 }
