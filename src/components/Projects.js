@@ -26,7 +26,7 @@ const ProjectsData = [
 const Projects = () => {
 
     return(
-        <div className="mt-10 pb-12 bg-white">
+        <div className="mt-10 pb-12 bg-white" id="portfolio">
             {
                 ProjectsData.map((projectData, index) => (
                     <Project projectData={projectData} key={`project-${index}`}/>
