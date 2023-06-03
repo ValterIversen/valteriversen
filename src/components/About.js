@@ -3,17 +3,30 @@ import Image from 'next/image';
 const About = () => {
     return(
         <div id="about" className="relative h-screen">
-            <div className="text-black">
-                <span className="max-w-40">
-                    Qualidade é o alicerce que sustenta a grandeza de um software - como desenvolvedor e analista de qualidade, busco construir soluções que resistam ao tempo e transcendam as expectativas.
+            <span className="
+            lg:max-w-lg lg:top-1/2 lg:transform lg:-translate-y-1/2  lg:absolute lg:left-48
+            text-black font-medium lg:text-4xl text-2xl
+            z-0">
+                <span className="relative inline-flex px-1 mx-1">
+                    <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
+                    <span className="relative ml-1 md:ml-0">Qualidade </span>
                 </span>
-            </div>
-            <div className="absolute bottom-0 right-3">
+                é o alicerce que sustenta a grandeza de um software. Como desenvolvedor e analista de 
+                <span className="relative inline-flex px-1 mx-1">
+                    <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
+                    <span className="relative ml-1 md:ml-0"> qualidade </span>
+                </span>
+                , busco construir soluções que resistam ao tempo e transcendam as 
+                <span className="relative inline-flex px-1 mx-1">
+                    <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
+                    <span className="relative ml-1 md:ml-0"> expectativas. </span>
+                </span>
+            </span>
+            <div className="absolute bottom-0 lg:right-3 z-1">
                 <Image
-                className="mb-0 mt-auto"
                     src="/perfil.png"
-                    width={700}
-                    height={700}
+                    width={800}
+                    height={800}
                     alt="Picture of the author"
                     />
 
