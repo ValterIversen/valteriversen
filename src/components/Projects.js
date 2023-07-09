@@ -5,6 +5,12 @@ import Link from 'next/link';
 
 const ProjectsData = [
     {
+        image: './ijobs.png',
+        title: 'IJobs',
+        subtitle: 'Um site para divulgação de uma gestora de conteúdo digital e barista',
+        link: 'https://ijobs.vercel.app/'
+    },
+    {
         image: './juliaxavier.png',
         title: 'Júlia Xavier',
         subtitle: 'Um site para apresentação profissional de uma psicóloga',
