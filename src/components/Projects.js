@@ -5,15 +5,21 @@ import Link from 'next/link';
 
 const ProjectsData = [
     {
+        video: './automatation.mp4',
+        title: 'Automação de testes',
+        subtitle: 'Um projeto base de automação de testes em C# utilizando Specflow, Selenium e Refit. Para documentar uma boa estrutura para se utilizar em projetos futuros',
+        github: 'https://github.com/ValterIversen/TestAutomatation-XUnit-Selenium-Specflow'
+    },
+    {
         image: './ijobs.png',
         title: 'IJobs',
-        subtitle: 'Um site para divulgação de uma gestora de conteúdo digital e barista',
+        subtitle: '(Em progresso) Um site para divulgação de uma gestora de conteúdo digital e barista',
         link: 'https://ijobs.vercel.app/'
     },
     {
         image: './juliaxavier.png',
         title: 'Júlia Xavier',
-        subtitle: 'Um site para apresentação profissional de uma psicóloga',
+        subtitle: '(Em progresso) Um site para apresentação profissional de uma psicóloga',
         link: 'https://juliaxavier.vercel.app/'
     },
     {
@@ -26,12 +32,6 @@ const ProjectsData = [
         title: 'Chácara Luz do Sol',
         subtitle: 'Um site modelo para disponibilizar aos donos de edículas e chácaras uma forma fácil e barata de divulgar seus imoveis para eventos',
         link: 'https://site-chacara.vercel.app/'
-    },
-    {
-        video: './automatation.mp4',
-        title: 'Automação de testes',
-        subtitle: 'Um projeto base de automação de testes em C# utilizando Specflow, Selenium e Refit. Para documentar uma boa estrutura para se utilizar em projetos futuros',
-        github: 'https://github.com/ValterIversen/TestAutomatation-XUnit-Selenium-Specflow'
     }
 ]
 
