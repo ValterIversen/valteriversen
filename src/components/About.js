@@ -23,7 +23,7 @@ const About = ({content}) => {
                 text-lg mx-5 mt-5
                 lg:text-2xl lg:mx-12 lg:mt-8
                 2xl:text-3xl 2lx:mx-18 2xl:mt-10">
-                    Como desenvolvedor e analista de qualidade, busco construir soluções que resistam ao tempo e transcendam as expectativas.
+                    {content.sobre}
                 </p>
             </div>
             <div className="z-1 mb-0 mt-auto
