@@ -1,0 +1,42 @@
+{
+    "portfolio": "Portfolio",
+    "quemsoueu": "Quem sou eu",
+    "profissao": "Analista de qualidade e desenvolvedor",
+    "intro1": "Aqui, cada bug é um ",
+    "intro2": " desafio ",
+    "intro3": " e cada linha de código é uma ",
+    "intro4": " conquista ",
+    "vamosconversar": "Vamos conversar?",
+    "meconheca": "Me conheça melhor",
+    "casossucesso": "Veja alguns casos de sucesso",
+    "frase1": "Qualidade ",
+    "frase2": " é o alicerce que sustenta a ",
+    "frase3": " grandeza ",
+    "frase4": " de um software.",
+    "sobre": "Como desenvolvedor e analista de qualidade, busco construir soluções que resistam ao tempo e transcendam as expectativas.",
+    "projects": [
+        {
+            "video": "./automatation.mp4",
+            "title": "Automação de testes",
+            "subtitle": "Um projeto base de automação de testes em C# utilizando Specflow, Selenium e Refit. Para documentar uma boa estrutura para se utilizar em projetos futuros",
+            "github": "https://github.com/ValterIversen/TestAutomatation-XUnit-Selenium-Specflow"
+        },
+        {
+            "image": "./ijobs.png",
+            "title": "IJobs",
+            "subtitle": "(Em progresso) Um site para divulgação de uma gestora de conteúdo digital e barista",
+            "link": "https://ijobs.vercel.app/"
+        },
+        {
+            "video": "./sheeptown.mp4",
+            "title": "Sheeptown",
+            "subtitle": "Um ecommerce completo com integração com a api do Mercado Pago"
+        },
+        {
+            "video": "./sitechacara.mp4",
+            "title": "Chácara Luz do Sol",
+            "subtitle": "Um site modelo para disponibilizar aos donos de edículas e chácaras uma forma fácil e barata de divulgar seus imoveis para eventos",
+            "link": "https://site-chacara.vercel.app/"
+        }
+    ]
+}

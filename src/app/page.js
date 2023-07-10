@@ -1,15 +1,8 @@
-import Image from 'next/image'
-import ProjectsHero from '../components/ProjectsHero'
-import Header from '../components/Header'
-import About from '../components/About'
 
-export default function Home() {
+import Home from '../pages/home'
+
+export default function App() {
   return (
-    <Header>
-      <div>
-        <ProjectsHero />
-        <About />
-      </div>
-    </Header>
+    <Home />
   )
 }

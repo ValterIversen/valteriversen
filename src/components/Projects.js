@@ -3,44 +3,12 @@
 import React, {useState, useRef} from 'react';
 import Link from 'next/link';
 
-const ProjectsData = [
-    {
-        video: './automatation.mp4',
-        title: 'Automação de testes',
-        subtitle: 'Um projeto base de automação de testes em C# utilizando Specflow, Selenium e Refit. Para documentar uma boa estrutura para se utilizar em projetos futuros',
-        github: 'https://github.com/ValterIversen/TestAutomatation-XUnit-Selenium-Specflow'
-    },
-    {
-        image: './ijobs.png',
-        title: 'IJobs',
-        subtitle: '(Em progresso) Um site para divulgação de uma gestora de conteúdo digital e barista',
-        link: 'https://ijobs.vercel.app/'
-    },
-    {
-        image: './juliaxavier.png',
-        title: 'Júlia Xavier',
-        subtitle: '(Em progresso) Um site para apresentação profissional de uma psicóloga',
-        link: 'https://juliaxavier.vercel.app/'
-    },
-    {
-        video: './sheeptown.mp4',
-        title: 'Sheeptown',
-        subtitle: 'Um ecommerce completo com integração com a api do Mercado Pago',
-    },
-    {
-        video: './sitechacara.mp4',
-        title: 'Chácara Luz do Sol',
-        subtitle: 'Um site modelo para disponibilizar aos donos de edículas e chácaras uma forma fácil e barata de divulgar seus imoveis para eventos',
-        link: 'https://site-chacara.vercel.app/'
-    }
-]
-
-const Projects = () => {
+const Projects = ({content}) => {
 
     return(
         <div className="mt-10 pb-12 bg-white" id="portfolio">
             {
-                ProjectsData.map((projectData, index) => (
+                content?.projects.map((projectData, index) => (
                     <Project projectData={projectData} key={`project-${index}`}/>
                 ))
             }
