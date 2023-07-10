@@ -1,0 +1,42 @@
+{
+    "portfolio": "Portfolio",
+    "quemsoueu": "Who am I",
+    "profissao": "Quality analyst and developer",
+    "intro1": "Here, each bug is a ",
+    "intro2": " challenge ",
+    "intro3": " and each line of code is a ",
+    "intro4": " achievement",
+    "vamosconversar": "Let's talk?",
+    "meconheca": "Get to know me better",
+    "casossucesso": "See some success stories",
+    "frase1": "Quality ",
+    "frase2": " is the foundation that sustains the  ",
+    "frase3": " greatness ",
+    "frase4": " of a software.",
+    "sobre": "As a developer and quality analyst, I seek to build solutions that resist time and transcend expectations.",
+    "projects": [
+        {
+            "video": "./automatation.mp4",
+            "title": "Test automatation",
+            "subtitle": "A test automation base project in C# using Specflow, Selenium and Refit. To document a good framework to use in future projects",
+            "github": "https://github.com/ValterIversen/TestAutomatation-XUnit-Selenium-Specflow"
+        },
+        {
+            "image": "./ijobs.png",
+            "title": "IJobs",
+            "subtitle": "(In progress) A website to promote a digital content manager and barista",
+            "link": "https://ijobs.vercel.app/"
+        },
+        {
+            "video": "./sheeptown.mp4",
+            "title": "Sheeptown",
+            "subtitle": "A complete ecommerce with integration with the Mercado Pago API"
+        },
+        {
+            "video": "./sitechacara.mp4",
+            "title": "Chácara Luz do Sol",
+            "subtitle": "A model website to provide small and small farm owners with an easy and cheap way to advertise their properties for events",
+            "link": "https://site-chacara.vercel.app/"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const About = () => {
+const About = ({content}) => {
     return(
         <div id="about" className="p-0 contents h-screen 
         lg:relative lg:block">
@@ -11,13 +11,13 @@ const About = () => {
                 2xl:text-6xl">
                     <span className="relative inline-flex pr-1 mr-1">
                         <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-                        <span className="relative ml-1 md:ml-0">Qualidade </span>
+                        <span className="relative ml-1 md:ml-0">{content.frase1}</span>
                     </span>
-                    é o alicerce que sustenta a 
+                    {content.frase2}
                     <span className="relative inline-flex px-1 mx-1">
                         <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-                        <span className="relative ml-1 md:ml-0"> grandeza </span>
-                    </span> de um software.
+                        <span className="relative ml-1 md:ml-0">{content.frase3}</span>
+                    </span>{content.frase4}
                 </span>
                 <p className="text-black
                 text-lg mx-5 mt-5

@@ -1,9 +1,12 @@
 'use client'
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation'
 
 import Logo from '../components/Logo'
+import LocaleChanger from '../components/LocaleChanger'
 
 const Header = ({children}) => {
+    const { locale, locales, asPath } = useRouter();
     const [expanded, setExpanded] = useState(false);
 
     return (
@@ -61,6 +64,7 @@ const Header = ({children}) => {
                         </div>
                     </nav>
                 }
+                <LocaleChanger></LocaleChanger>
             </div>
         </header>
         {children}
