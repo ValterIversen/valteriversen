@@ -64,7 +64,6 @@ const Header = ({children}) => {
                         </div>
                     </nav>
                 }
-                <LocaleChanger></LocaleChanger>
             </div>
         </header>
         {children}
