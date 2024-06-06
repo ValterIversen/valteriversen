@@ -16,12 +16,6 @@
     "sobre": "As a developer and quality analyst, I seek to build solutions that resist time and transcend expectations.",
     "projects": [
         {
-            "video": "./automatation.mp4",
-            "title": "Test automatation",
-            "subtitle": "A test automation base project in C# using Specflow, Selenium and Refit. To document a good framework to use in future projects",
-            "github": "https://github.com/ValterIversen/TestAutomatation-XUnit-Selenium-Specflow"
-        },
-        {
             "image": "./ijobs.png",
             "title": "IJobs",
             "subtitle": "(In progress) A website to promote a digital content manager and barista",
