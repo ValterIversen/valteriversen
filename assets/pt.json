@@ -16,9 +16,15 @@
     "sobre": "Como desenvolvedor e analista de qualidade, busco construir soluções que resistam ao tempo e transcendam as expectativas.",
     "projects": [
         {
+            "image": "./juliaxavier.png",
+            "title": "Julia Xávier",
+            "subtitle": "Um site dedicado à divulgação dos serviços de psicologia",
+            "link": "https://juliaxavier.vercel.app/"
+        },
+        {
             "image": "./ijobs.png",
             "title": "IJobs",
-            "subtitle": "(Em progresso) Um site para divulgação de uma gestora de conteúdo digital e barista",
+            "subtitle": "Um site para divulgação de uma gestora de conteúdo digital e barista",
             "link": "https://ijobs.vercel.app/"
         },
         {

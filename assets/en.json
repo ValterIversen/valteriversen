@@ -16,6 +16,12 @@
     "sobre": "As a developer and quality analyst, I seek to build solutions that resist time and transcend expectations.",
     "projects": [
         {
+            "image": "./juliaxavier.png",
+            "title": "Julia Xávier",
+            "subtitle": "A website dedicated to promoting psychology services",
+            "link": "https://juliaxavier.vercel.app/"
+        },
+        {
             "image": "./ijobs.png",
             "title": "IJobs",
             "subtitle": "(In progress) A website to promote a digital content manager and barista",
