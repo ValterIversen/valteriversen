@@ -1,0 +1,32 @@
+{
+    "portfolio": "Portfolio",
+    "quemsoueu": "Who am I",
+    "profissao": "Quality analyst and developer",
+    "intro1": "Here, each bug is a ",
+    "intro2": " challenge ",
+    "intro3": " and each line of code is a ",
+    "intro4": " achievement",
+    "vamosconversar": "Let's talk?",
+    "meconheca": "Get to know me better",
+    "casossucesso": "Take a look at some projects",
+    "frase1": "Quality ",
+    "frase2": " is the foundation that sustains the  ",
+    "frase3": " greatness ",
+    "frase4": " of a software.",
+    "sobre": "As a developer and quality analyst, I seek to build solutions that resist time and transcend expectations.",
+    "juliaxavier":
+    {
+        "title": "Julia Xávier",
+        "subtitle": "A website dedicated to promoting psychology services"
+    },
+    "ijobs":
+    {
+        "title": "IJobs",
+        "subtitle": "(In progress) A website to promote a digital content manager and barista"
+    },
+    "sheeptown":
+    {
+        "title": "Sheeptown",
+        "subtitle": "A complete ecommerce with integration with the Mercado Pago API"
+    }
+}

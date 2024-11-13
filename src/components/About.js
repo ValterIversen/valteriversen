@@ -1,6 +1,10 @@
 import Image from 'next/image';
+import {useTranslations} from 'next-intl';
 
-const About = ({content}) => {
+const About = () => {
+    
+  const t = useTranslations();
+
     return(
         <div id="about" className="p-0 contents h-screen 
         lg:relative lg:block">
@@ -11,19 +15,19 @@ const About = ({content}) => {
                 2xl:text-6xl">
                     <span className="relative inline-flex pr-1 mr-1">
                         <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-                        <span className="relative ml-1 md:ml-0">{content.frase1}</span>
+                        <span className="relative ml-1 md:ml-0">{t('frase1')}</span>
                     </span>
-                    {content.frase2}
+                    {t('frase2')}
                     <span className="relative inline-flex px-1 mx-1">
                         <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-                        <span className="relative ml-1 md:ml-0">{content.frase3}</span>
-                    </span>{content.frase4}
+                        <span className="relative ml-1 md:ml-0">{t('frase3')}</span>
+                    </span>{t('frase4')}
                 </span>
                 <p className="text-black
                 text-lg mx-5 mt-5
                 lg:text-2xl lg:mx-12 lg:mt-8
                 2xl:text-3xl 2lx:mx-18 2xl:mt-10">
-                    {content.sobre}
+                    {t('sobre')}
                 </p>
             </div>
             <div className="z-1 mb-0 mt-auto

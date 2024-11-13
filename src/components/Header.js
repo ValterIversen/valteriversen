@@ -1,12 +1,11 @@
 'use client'
 import React, { useState } from 'react';
-import { useRouter } from 'next/navigation'
+import {useTranslations} from 'next-intl';
 
 import Logo from '../components/Logo'
-import LocaleChanger from '../components/LocaleChanger'
 
 const Header = ({children}) => {
-    const { locale, locales, asPath } = useRouter();
+    const t = useTranslations();
     const [expanded, setExpanded] = useState(false);
 
     return (
@@ -43,9 +42,9 @@ const Header = ({children}) => {
                     </div>
         
                     <div className="hidden lg:flex lg:ml-16 lg:items-center lg:justify-center lg:space-x-10 xl:space-x-16">
-                        <a href="#portfolio" title="" className="text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Portfolio </a>
+                        <a href="#portfolio" title="" className="text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('portfolio')} </a>
         
-                        <a href="#about" title="" className="text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Quem sou eu </a>
+                        <a href="#about" title="" className="text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('quemsoueu')} </a>
                     </div>
         
                     <div className="hidden lg:ml-auto lg:flex lg:items-center lg:space-x-10">
@@ -57,9 +56,9 @@ const Header = ({children}) => {
                     <nav x-show="expanded">
                         <div className="px-1 py-8">
                             <div className="grid gap-y-7">
-                                <a href="#portfolio" title="" className="flex items-center p-3 -m-3 text-base font-medium text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Portfolio </a>
+                                <a href="#portfolio" title="" className="flex items-center p-3 -m-3 text-base font-medium text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('portfolio')} </a>
             
-                                <a href="#about" title="" className="flex items-center p-3 -m-3 text-base font-medium text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Quem sou eu </a>
+                                <a href="#about" title="" className="flex items-center p-3 -m-3 text-base font-medium text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('quemsoueu')} </a>
                             </div>
                         </div>
                     </nav>

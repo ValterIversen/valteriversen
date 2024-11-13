@@ -1,28 +1,47 @@
 'use client';
 
-import React, {useState, useRef} from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import Link from 'next/link';
+import {useTranslations} from 'next-intl';
 
-const Projects = ({content}) => {
+const projects = [
+    {
+        'name': 'juliaxavier',
+        'link': 'https://juliaxavier.vercel.app/',
+        'image': './juliaxavier.png'
+    },
+    {
+        'name': 'ijobs',
+        'link': 'https://ijobs.vercel.app/',
+        'image': './ijobs.png'
+    },
+    {
+        'name': 'sheeptown',
+        'link': 'https://ijobs.vercel.app/',
+        'video': './sheeptown.mp4'
+    }
+]
+
+const Projects = () => {
 
     return(
         <div className="mt-10 pb-12 bg-white" id="portfolio">
             {
-                content?.projects.map((projectData, index) => (
-                    <Project projectData={projectData} key={`project-${index}`}/>
+                projects.map(project => (
+                    <ProjectCard project={project} key={project.name}/>
                 ))
             }
-    </div>
+        </div>
     )
 }
 
-const Project = ({projectData}) => {
-    const {video, image, title, subtitle, link, github} = projectData;
+const ProjectCard = ({project}) => {
+    const t = useTranslations(project.name);
     const [playing, setPlaying] = useState(false);
     const videoRef = useRef(null);
   
     const handleVideoPress = () => {
-        if(video){
+        if(project.video){
             if (playing) {
               videoRef.current.pause();
               setPlaying(false);
@@ -40,11 +59,11 @@ const Project = ({projectData}) => {
                 onClick={handleVideoPress} >
 
                 {
-                    video ?
+                    project.video ?
                     <>
                         <video className="transition duration-500 ease-in-out"
                             ref={videoRef} loop muted>      
-                            <source src={video} type="video/mp4"/>       
+                            <source src={project.video} type="video/mp4"/>       
                         </video>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
                         className={`black w-14 h-14 transition-opacity duration-1000 ease-in-out
@@ -56,17 +75,17 @@ const Project = ({projectData}) => {
                         </svg>
                     </>
                     :
-                    <img src={image} />
+                    <img src={project.image} />
                 }
                 
                 <div className={`text-black text-sm lg:text-base
                 absolute bottom-0 bg-white shadow-lg bg-clip-padding bg-opacity-60 border border-gray-200 backdrop-blur-xl
                 border-none px-10 transition-height duration-1000 ease-in-out w-full p-0
                 ${playing ? "h-0 lg:h-0" : "h-16 lg:h-40"}`}>
-                    <p className="font-bold text-center mt-2 lg:mt-7">{title}</p>
-                    <p className="text-center mt-0 lg:mt-3 hidden lg:block">{subtitle}</p>
-                    { github && <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={github}>Acesse o projeto</Link></p>}
-                    { link && <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={link}>Acesse o site</Link></p>}
+                    <p className="font-bold text-center mt-2 lg:mt-7">{t('title')}</p>
+                    <p className="text-center mt-0 lg:mt-3 hidden lg:block">{t('subtitle')}</p>
+                    { project.github && <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={project.github}>Acesse o projeto</Link></p>}
+                    { project.link && <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={project.link}>Acesse o site</Link></p>}
                 </div>
             </div>
         </div>
