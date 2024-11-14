@@ -1,21 +1,26 @@
 import {useTranslations} from 'next-intl';
-import '../globals.css'  // ou o nome do seu arquivo CSS
+import {setRequestLocale} from 'next-intl/server';
+import PageLayout from '@/components/PageLayout';
 
-import Hero from '../../components/Hero'
-import Header from '../../components/Header'
-import About from '../../components/About'
-import Projects from '../../components/Projects';
- 
-export default function HomePage() {
+type Props = {
+  params: {locale: string};
+};
+
+export default function IndexPage({params: {locale}}: Props) {
+  // Enable static rendering
+  setRequestLocale(locale);
+
+  const t = useTranslations('IndexPage');
+
   return (
-    <div>
-    <Header>
-      <div>
-        <Hero/>
-        <Projects/>
-        <About/>
-      </div>
-    </Header>
-    </div>
+    <PageLayout title={t('title')}>
+      <p className="max-w-[590px]">
+        {t.rich('description', {
+          code: (chunks) => (
+            <code className="font-mono text-white">{chunks}</code>
+          )
+        })}
+      </p>
+    </PageLayout>
   );
 }

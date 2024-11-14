@@ -1,10 +1,9 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {ReactNode} from 'react';
-import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
+import {getTranslations, setRequestLocale} from 'next-intl/server';
+import {ReactNode} from 'react';
 import BaseLayout from '@/components/BaseLayout';
 import {routing} from '@/i18n/routing';
- 
+
 type Props = {
   children: ReactNode;
   params: {locale: string};
@@ -13,7 +12,6 @@ type Props = {
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
 }
-
 
 export async function generateMetadata({
   params: {locale}
@@ -36,14 +34,6 @@ export default async function LocaleLayout({
 
   // Enable static rendering
   setRequestLocale(locale);
- 
-  return (
-    <html lang={locale}>
-      <body>
-        <BaseLayout locale={locale}>
-          {children}
-        </BaseLayout>
-      </body>
-    </html>
-  );
+
+  return <BaseLayout locale={locale}>{children}</BaseLayout>;
 }
