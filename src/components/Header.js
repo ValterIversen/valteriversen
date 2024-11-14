@@ -1,15 +1,15 @@
 'use client'
+import React, { useState } from 'react';
 import {useTranslations} from 'next-intl';
-import React, { useState } from 'react';  
-import LocaleSwitcher from './LocaleSwitcher';
+
 import Logo from '../components/Logo'
 
-export default function Navigation() {
-  const t = useTranslations();
-  const [expanded, setExpanded] = useState(false);
+const Header = ({children}) => {
+    const t = useTranslations();
+    const [expanded, setExpanded] = useState(false);
 
-  return (
-    <div className="overflow-x-hidden bg-gray-50">
+    return (
+        <div className="overflow-x-hidden bg-gray-50">
         <header className="py-4 md:py-6" x-data="{expanded: false}">
             <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
@@ -45,8 +45,6 @@ export default function Navigation() {
                         <a href="#portfolio" title="" className="text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('portfolio')} </a>
         
                         <a href="#about" title="" className="text-base font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('quemsoueu')} </a>
-
-                        <LocaleSwitcher />
                     </div>
         
                     <div className="hidden lg:ml-auto lg:flex lg:items-center lg:space-x-10">
@@ -61,14 +59,15 @@ export default function Navigation() {
                                 <a href="#portfolio" title="" className="flex items-center p-3 -m-3 text-base font-medium text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('portfolio')} </a>
             
                                 <a href="#about" title="" className="flex items-center p-3 -m-3 text-base font-medium text-gray-900 transition-all duration-200 rounded-xl hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> {t('quemsoueu')} </a>
-                                
-                                <LocaleSwitcher />
                             </div>
                         </div>
                     </nav>
                 }
             </div>
         </header>
+        {children}
     </div>
-  ); 
+    )
 }
+
+export default Header;

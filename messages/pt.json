@@ -1,0 +1,76 @@
+{
+    "portfolio": "Portfolio",
+    "quemsoueu": "Quem sou eu",
+    "profissao": "Analista de qualidade e desenvolvedor",
+    "intro1": "Aqui, cada bug é um ",
+    "intro2": " desafio ",
+    "intro3": " e cada linha de código é uma ",
+    "intro4": " conquista ",
+    "vamosconversar": "Vamos conversar?",
+    "meconheca": "Me conheça melhor",
+    "casossucesso": "Veja alguns casos de sucesso",
+    "frase1": "Qualidade ",
+    "frase2": " é o alicerce que sustenta a ",
+    "frase3": " grandeza ",
+    "frase4": " de um software.",
+    "sobre": "Como desenvolvedor e analista de qualidade, busco construir soluções que resistam ao tempo e transcendam as expectativas.",
+    "juliaxavier":
+    {
+        "title": "Julia Xávier",
+        "subtitle": "Um site dedicado à divulgação dos serviços de psicologia"
+    },
+    "ijobs":
+    {
+        "title": "IJobs",
+        "subtitle": "Um site para divulgação de uma gestora de conteúdo digital e barista"
+    },
+    "sheeptown":
+    {
+        "title": "Sheeptown",
+        "subtitle": "Um ecommerce completo com integração com a api do Mercado Pago"
+    },
+
+  
+    "Error": {
+      "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+      "title": "Something went wrong!"
+    },
+    "IndexPage": {
+      "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+      "title": "next-intl example"
+    },
+    "LocaleLayout": {
+      "title": "next-intl example"
+    },
+    "LocaleSwitcher": {
+      "label": "Trocar líigua",
+      "locale": "{locale, select, pt {pt Português} en {🇺🇸 English} other {Unknown}}"
+    },
+    
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Página não encontrada"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pathnames"
+  }
+}
