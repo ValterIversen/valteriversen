@@ -1,30 +1,48 @@
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import {ReactNode} from 'react';
+import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
+import BaseLayout from '@/components/BaseLayout';
 import {routing} from '@/i18n/routing';
  
+type Props = {
+  children: ReactNode;
+  params: {locale: string};
+};
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
+
+
+export async function generateMetadata({
+  params: {locale}
+}: Omit<Props, 'children'>) {
+  const t = await getTranslations({locale, namespace: 'LocaleLayout'});
+
+  return {
+    title: t('title')
+  };
+}
+
 export default async function LocaleLayout({
   children,
   params: {locale}
-}: {
-  children: React.ReactNode;
-  params: {locale: string};
-}) {
+}: Props) {
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
- 
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
+
+  // Enable static rendering
+  setRequestLocale(locale);
  
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <BaseLayout locale={locale}>
           {children}
-        </NextIntlClientProvider>
+        </BaseLayout>
       </body>
     </html>
   );
