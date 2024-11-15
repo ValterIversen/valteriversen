@@ -1,5 +1,6 @@
 import {useTranslations} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
+import '../styles.css';
 
 import Hero from '../../components/Hero'
 import Projects from '../../components/Projects';

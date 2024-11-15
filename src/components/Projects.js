@@ -14,11 +14,6 @@ const projects = [
         'name': 'ijobs',
         'link': 'https://ijobs.vercel.app/',
         'image': './ijobs.png'
-    },
-    {
-        'name': 'sheeptown',
-        'link': 'https://ijobs.vercel.app/',
-        'video': './sheeptown.mp4'
     }
 ]
 

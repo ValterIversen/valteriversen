@@ -3,7 +3,7 @@ import {useTranslations} from 'next-intl';
 
 const Hero = () => {
     
-  const t = useTranslations();
+  const t = useTranslations('Hero');
 
     return (
         <section className="pt-12 bg-gray-50 sm:pt-16">
@@ -11,18 +11,23 @@ const Hero = () => {
                 <div className="max-w-2xl mx-auto text-center">
                     <h1 className="px-6 text-lg text-gray-600 font-inter">{t('profissao')}</h1>
                     <p className="mt-5 text-4xl font-bold leading-tight text-gray-900 sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
-                        {t('intro1')}'
+                        {t('intro1')}
                         <span className="relative inline-flex px-1 mx-1">
                             <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
                             <span className="relative ml-1 md:ml-0">{t('intro2')}</span>
                         </span>
-                        {t('intro3')}
-                        <span className="relative inline-flex px-1 mx-1">
-                            <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
-                            <span className="relative ml-1 md:ml-0">{t('intro4')}</span>
-                        </span>
                     </p>
-
+                    <div className="text-black py-14 px-14 space-y-3">
+                        <p>
+                            {t("sobre1")}
+                        </p>
+                        <p>
+                            {t("sobre2")}
+                        </p>
+                        <p>
+                            {t("sobre3")}
+                        </p>
+                    </div>
                     <div className="px-8 sm:items-center sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
                     <a
                             href="https://api.whatsapp.com/send?phone=5517991129720&text=Ol%C3%A1%20Valter,%20tudo%20bem?"

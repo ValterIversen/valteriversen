@@ -1,19 +1,18 @@
 {
     "portfolio": "Portfolio",
     "quemsoueu": "Quem sou eu",
-    "profissao": "Analista de qualidade e desenvolvedor",
-    "intro1": "Aqui, cada bug é um ",
-    "intro2": " desafio ",
-    "intro3": " e cada linha de código é uma ",
-    "intro4": " conquista ",
-    "vamosconversar": "Vamos conversar?",
-    "meconheca": "Me conheça melhor",
-    "casossucesso": "Veja alguns casos de sucesso",
-    "frase1": "Qualidade ",
-    "frase2": " é o alicerce que sustenta a ",
-    "frase3": " grandeza ",
-    "frase4": " de um software.",
-    "sobre": "Como desenvolvedor e analista de qualidade, busco construir soluções que resistam ao tempo e transcendam as expectativas.",
+    "Hero":
+    {
+        "profissao": "Analista de qualidade",
+        "intro1": "Olá, meu nome é ",
+        "intro2": " Valter",
+        "vamosconversar": "Vamos conversar?",
+        "meconheca": "Me conheça melhor",
+        "casossucesso": "Veja alguns casos de sucesso",
+        "sobre1": "Sou Analista de Qualidade especializado em automação de testes, com mais de 3 anos de experiência em uma das maiores software houses da América Latina.",
+        "sobre2": "Atualmente, sou especialista em Robot Framework e Selenium e trabalho com testes manuais e automatizados de uma variedade de produtos, em diferentes linguagens e plataformas. Além disso, lidero a equipe de automação, onde sou responsável por tomar decisões estratégicas, definir metas e reportar resultados de forma contínua aos nossos líderes.",
+        "sobre3": "Acredito que a cultura de qualidade é um dos pilares mais importantes no ciclo de vida de um software. Estou sempre em busca de novas formas de aumentar a confiabilidade das entregas e garantir que os produtos atendam às expectativas de nossos usuários."
+    },
     "juliaxavier":
     {
         "title": "Julia Xávier",
@@ -24,12 +23,6 @@
         "title": "IJobs",
         "subtitle": "Um site para divulgação de uma gestora de conteúdo digital e barista"
     },
-    "sheeptown":
-    {
-        "title": "Sheeptown",
-        "subtitle": "Um ecommerce completo com integração com a api do Mercado Pago"
-    },
-
   
     "Error": {
       "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
@@ -43,8 +36,8 @@
       "title": "next-intl example"
     },
     "LocaleSwitcher": {
-      "label": "Trocar líigua",
-      "locale": "{locale, select, pt {pt Português} en {🇺🇸 English} other {Unknown}}"
+      "label": "Trocar idioma",
+      "locale": "{locale, select, pt {Português} en {English} other {Unknown}}"
     },
     
   "Navigation": {

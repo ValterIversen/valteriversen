@@ -1,19 +1,18 @@
 {
   "portfolio": "Portfolio",
   "quemsoueu": "Who am I",
-  "profissao": "Quality analyst and developer",
-  "intro1": "Here, each bug is a ",
-  "intro2": " challenge ",
-  "intro3": " and each line of code is a ",
-  "intro4": " achievement",
-  "vamosconversar": "Let's talk?",
-  "meconheca": "Get to know me better",
-  "casossucesso": "Take a look at some projects",
-  "frase1": "Quality ",
-  "frase2": " is the foundation that sustains the  ",
-  "frase3": " greatness ",
-  "frase4": " of a software.",
-  "sobre": "As a developer and quality analyst, I seek to build solutions that resist time and transcend expectations.",
+  "Hero": 
+  {
+      "profissao": "Quality analyst",
+      "intro1": "Hi, my name is  ",
+      "intro2": " Valter",
+      "vamosconversar": "Let's talk?",
+      "meconheca": "Get to know me better",
+      "casossucesso": "Take a look at some projects",
+      "sobre1": "I am a Quality Analyst specializing in test automation, with over 3 years of experience at one of the largest software houses in Latin America.",
+      "sobre2": "Currently, I specialize in Robot Framework and Selenium, working with both manual and automated testing across a variety of products, languages, and platforms. I also lead the automation team, where I am responsible for making strategic decisions, setting goals, and regularly reporting results to our leadership.",
+      "sobre3": "I believe that a strong quality culture is one of the most important pillars in the software development lifecycle. I am always seeking ways to increase the reliability of our deliveries and ensure that the products meet the expectations of our users."
+  },
   "juliaxavier":
   {
       "title": "Julia Xávier",
@@ -23,11 +22,6 @@
   {
       "title": "IJobs",
       "subtitle": "(In progress) A website to promote a digital content manager and barista"
-  },
-  "sheeptown":
-  {
-      "title": "Sheeptown",
-      "subtitle": "A complete ecommerce with integration with the Mercado Pago API"
   },
 
   
@@ -44,7 +38,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, pt {pt Português} en {🇺🇸 English} other {Unknown}}"
+    "locale": "{locale, select, pt {Português} en {English} other {Unknown}}"
   },
 
   
