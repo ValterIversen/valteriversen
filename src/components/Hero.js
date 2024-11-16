@@ -17,7 +17,7 @@ const Hero = () => {
                             <span className="relative ml-1 md:ml-0">{t('intro2')}</span>
                         </span>
                     </p>
-                    <div className="text-black py-14 px-14 space-y-3">
+                    <div className="text-black lg:py-14 lg:px-14 space-y-3 px-4 py-10 lg:text-base text-sm">
                         <p>
                             {t("sobre1")}
                         </p>
