@@ -3,15 +3,15 @@
   "quemsoueu": "Who am I",
   "Hero": 
   {
-      "profissao": "Quality analyst",
+      "profissao": "Quality assurance",
       "intro1": "Hi, my name is  ",
       "intro2": " Valter",
       "vamosconversar": "Let's talk?",
       "meconheca": "Get to know me better",
       "casossucesso": "Take a look at some projects",
-      "sobre1": "I am a Quality Analyst specializing in test automation, with over 3 years of experience at one of the largest software houses in Latin America.",
-      "sobre2": "Currently, I specialize in Robot Framework and Selenium, working with both manual and automated testing across a variety of products, languages, and platforms. I also lead the automation team, where I am responsible for making strategic decisions, setting goals, and regularly reporting results to our leadership.",
-      "sobre3": "I believe that a strong quality culture is one of the most important pillars in the software development lifecycle. I am always seeking ways to increase the reliability of our deliveries and ensure that the products meet the expectations of our users."
+      "sobre1": "I am a Quality assurance, currently specializing in Robot Framework and Selenium, with over 3 years of experience at one of the largest software houses in Latin America.",
+      "sobre2": "Currently, I work with both manual and automated testing across a variety of products, languages, and platforms. Recently, I began leading an automation team, where I am responsible for making strategic decisions, setting goals, and continuously reporting results to our leadership.",
+      "sobre3": "I believe that quality culture and processes are among the most important pillars in the software development lifecycle."
   },
   "juliaxavier":
   {
@@ -30,42 +30,14 @@
     "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "next-intl example"
+    "description": "A presentation website of a Quality Assurance.",
+    "title": "Quality Assurance - Valter Iversen"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Quality Assurance - Valter Iversen"
   },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, pt {Português} en {English} other {Unknown}}"
-  },
-
-  
-  "Navigation": {
-    "home": "Home",
-    "pathnames": "Pathnames"
-  },
-  "NotFoundPage": {
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
-    "title": "Page not found"
-  },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "description": "Learn more about next-intl in the official docs.",
-        "href": "https://next-intl-docs.vercel.app/",
-        "title": "Docs"
-      },
-      "source": {
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
-      }
-    }
-  },
-  "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
   }
 }
