@@ -8,7 +8,7 @@ const projects = [
     {
         'name': 'testautomation',
         'link': 'https://github.com/ValterIversen/TestAutomatation-Robotframework',
-        'image': './testautomation.png'
+        'video': './testautomation.mp4'
     },
     {
         'name': 'juliaxavier',
