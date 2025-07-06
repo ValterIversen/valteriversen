@@ -16,22 +16,26 @@
   "testautomation":
   {
       "title": "Test automation",
-      "subtitle": "Automated testing project with examples for Web, Mobile and API applications."
+      "subtitle": "Automated testing project with examples for Web, Mobile and API applications.",
+      "visit": "Open project"
   },
   "juliaxavier":
   {
       "title": "Julia Xávier",
-      "subtitle": "A website dedicated to promoting psychology services"
+      "subtitle": "A website dedicated to promoting psychology services",
+      "visit": "Go to website"
   },
   "signatureclassification":
   {
       "title": "Artificial neural network from scratch in C++",
-      "subtitle": "Signature classification AI in C++, built from scratch without machine learning libraries. Data processing and calculations done manually using standard libraries."
+      "subtitle": "Signature classification AI in C++, built from scratch without machine learning libraries. Data processing and calculations done manually using standard libraries.",
+      "visit": "Open project"
   },
   "ijobs":
   {
       "title": "IJobs",
-      "subtitle": "(In progress) A website to promote a digital content manager and barista"
+      "subtitle": "(In progress) A website to promote a digital content manager and barista",
+      "visit": "Go to website"
   },
 
   

@@ -16,22 +16,26 @@
     "testautomation":
     {
         "title": "Automação de testes",
-        "subtitle": "Projeto de testes automatizados com exemplos para aplicações Web, Mobile e API."
+        "subtitle": "Projeto de testes automatizados com exemplos para aplicações Web, Mobile e API.",
+        "visit": "Acesse o projeto"
     },
     "juliaxavier":
     {
         "title": "Julia Xávier",
-        "subtitle": "Um site dedicado à divulgação dos serviços de psicologia"
+        "subtitle": "Um site dedicado à divulgação dos serviços de psicologia",
+        "visit": "Acesse o site"
     },
     "signatureclassification":
     {
         "title": "Rede neural artificial sem bibliotecas, em C++",
-        "subtitle": "Classificação de assinaturas com inteligência artificial em C++, feito do zero sem bibliotecas de machine learning. Processamento e cálculos realizados manualmente com bibliotecas padrão."
+        "subtitle": "Classificação de assinaturas com inteligência artificial em C++, feito do zero sem bibliotecas de machine learning. Processamento e cálculos realizados manualmente com bibliotecas padrão.",
+        "visit": "Acesse o projeto"
     },
     "ijobs":
     {
         "title": "IJobs",
-        "subtitle": "Um site para divulgação de uma gestora de conteúdo digital e barista"
+        "subtitle": "Um site para divulgação de uma gestora de conteúdo digital e barista",
+        "visit": "Acesse o site"
     },
   
     "Error": {

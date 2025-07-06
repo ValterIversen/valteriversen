@@ -89,8 +89,7 @@ const ProjectCard = ({project}) => {
                 ${playing ? "h-0 lg:h-0" : "h-16 lg:h-40"}`}>
                     <p className="font-bold text-center mt-2 lg:mt-7">{t('title')}</p>
                     <p className="text-center mt-0 lg:mt-3 hidden lg:block">{t('subtitle')}</p>
-                    { project.github && <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={project.github}>Acesse o projeto</Link></p>}
-                    { project.link && <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={project.link}>Acesse o site</Link></p>}
+                    <p className="text-center mt-2 lg:mt-3 font-medium text-sky-800 underline"><Link href={project.link}>{t('visit')}</Link></p>
                 </div>
             </div>
         </div>
