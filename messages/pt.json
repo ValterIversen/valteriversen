@@ -8,15 +8,25 @@
         "intro2": " Valter",
         "vamosconversar": "Vamos conversar?",
         "meconheca": "Me conheça melhor",
-        "casossucesso": "Veja alguns projetos",
-        "sobre1": "Sou um Analista de qualidade, atualmente me especializando em Robot Framework e Selenium, com mais de 3 anos de experiência em uma das maiores software houses da América Latina.",
+        "casossucesso": "Veja alguns projetos pessoais",
+        "sobre1": "Sou um Analista de qualidade, atualmente me especializando testes agéis e com vasta experiência Robot Framework e Selenium, com quase 4 anos de experiência em uma das maiores software houses da América Latina.",
         "sobre2": "Atualmente trabalho com testes manuais e automatizados de uma variedade de produtos, em diferentes linguagens e plataformas. Recentemente, comecei a liderar uma equipe de automação, onde sou responsável por tomar decisões estratégicas, definir metas e reportar resultados de forma contínua aos nossos líderes.",
         "sobre3": "Acredito que a cultura e processos de qualidade é um dos pilares mais importantes no ciclo de vida de um software."
+    },
+    "testautomation":
+    {
+        "title": "Automação de testes",
+        "subtitle": "Projeto de testes automatizados com exemplos para aplicações Web, Mobile e API."
     },
     "juliaxavier":
     {
         "title": "Julia Xávier",
         "subtitle": "Um site dedicado à divulgação dos serviços de psicologia"
+    },
+    "signatureclassification":
+    {
+        "title": "Rede neural artificial sem bibliotecas, em C++",
+        "subtitle": "Classificação de assinaturas com inteligência artificial em C++, feito do zero sem bibliotecas de machine learning. Processamento e cálculos realizados manualmente com bibliotecas padrão."
     },
     "ijobs":
     {

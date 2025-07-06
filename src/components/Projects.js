@@ -6,9 +6,19 @@ import {useTranslations} from 'next-intl';
 
 const projects = [
     {
+        'name': 'testautomation',
+        'link': 'https://github.com/ValterIversen/TestAutomatation-Robotframework',
+        'image': './testautomation.png'
+    },
+    {
         'name': 'juliaxavier',
         'link': 'https://juliaxavier.vercel.app/',
         'image': './juliaxavier.png'
+    },
+    {
+        'name': 'signatureclassification',
+        'link': 'https://github.com/ValterIversen/Neural-Network-signature-classification',
+        'image': './signatureclassification.png'
     },
     {
         'name': 'ijobs',

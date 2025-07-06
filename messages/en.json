@@ -8,15 +8,25 @@
       "intro2": " Valter",
       "vamosconversar": "Let's talk?",
       "meconheca": "Get to know me better",
-      "casossucesso": "Take a look at some projects",
-      "sobre1": "I am a Quality assurance, currently specializing in Robot Framework and Selenium, with over 3 years of experience at one of the largest software houses in Latin America.",
+      "casossucesso": "Take a look at some personal projects",
+      "sobre1": "I'm a Quality assurance, currently specializing in agile testing, with extensive experience in Robot Framework and Selenium, and nearly 4 years of experience at one of the largest software houses in Latin America.",
       "sobre2": "Currently, I work with both manual and automated testing across a variety of products, languages, and platforms. Recently, I began leading an automation team, where I am responsible for making strategic decisions, setting goals, and continuously reporting results to our leadership.",
       "sobre3": "I believe that quality culture and processes are among the most important pillars in the software development lifecycle."
+  },
+  "testautomation":
+  {
+      "title": "Test automation",
+      "subtitle": "Automated testing project with examples for Web, Mobile and API applications."
   },
   "juliaxavier":
   {
       "title": "Julia Xávier",
       "subtitle": "A website dedicated to promoting psychology services"
+  },
+  "signatureclassification":
+  {
+      "title": "Artificial neural network from scratch in C++",
+      "subtitle": "Signature classification AI in C++, built from scratch without machine learning libraries. Data processing and calculations done manually using standard libraries."
   },
   "ijobs":
   {
