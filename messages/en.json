@@ -10,8 +10,24 @@
       "meconheca": "Get to know me better",
       "casossucesso": "Take a look at some personal projects",
       "sobre1": "I'm a Quality assurance, currently specializing in agile testing, with extensive experience in Robot Framework and Selenium, and nearly 4 years of experience at one of the largest software houses in Latin America.",
-      "sobre2": "Currently, I work with both manual and automated testing across a variety of products, languages, and platforms. Recently, I began leading an automation team, where I am responsible for making strategic decisions, setting goals, and continuously reporting results to our leadership.",
+      "sobre2": "Currently, I'm responsible for structuring the quality department, leading and guiding the QA team, defining standards and processes that support the development teams’ deliveries, and establishing metrics to monitor and ensure product quality.",
       "sobre3": "I believe that quality culture and processes are among the most important pillars in the software development lifecycle."
+  },
+  "k6": {
+    "title": "Load testing with K6 and Grafana",
+    "subtitle": "Load, stress, and rupture testing project using K6 with Grafana dashboard",
+    "visit": "Visit the project"
+  },
+  "testlink": {
+      "title": "TestLink ready to go",
+      "subtitle": "Complete TestLink environment quickly and easily using Docker.",
+      "visit": "Visit the project"
+  },
+  "automationlibrary":
+  {
+      "title": "Custom Android automation library",
+      "subtitle": "Python library for Android UI automation using uiautomator2, compatible with Robot Framework.",
+      "visit": "Visit the library"
   },
   "testautomation":
   {

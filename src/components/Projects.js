@@ -6,9 +6,24 @@ import {useTranslations} from 'next-intl';
 
 const projects = [
     {
+        'name': 'k6',
+        'link': 'https://github.com/ValterIversen/k6-grafana-influxdb',
+        'image': './k6.png'
+    },
+    {
+        'name': 'automationlibrary',
+        'link': 'https://pypi.org/project/robotframework-androiduiautomation/',
+        'image': './automationlibrary.png'
+    },
+    {
         'name': 'testautomation',
         'link': 'https://github.com/ValterIversen/TestAutomatation-Robotframework',
         'video': './testautomation.mp4'
+    },
+    {
+        'name': 'signatureclassification',
+        'link': 'https://github.com/ValterIversen/Neural-Network-signature-classification',
+        'image': './signatureclassification.png'
     },
     {
         'name': 'juliaxavier',
@@ -16,9 +31,9 @@ const projects = [
         'image': './juliaxavier.png'
     },
     {
-        'name': 'signatureclassification',
-        'link': 'https://github.com/ValterIversen/Neural-Network-signature-classification',
-        'image': './signatureclassification.png'
+        'name': 'testlink',
+        'link': 'https://pypi.org/project/robotframework-androiduiautomation/',
+        'image': './testlink.png'
     },
     {
         'name': 'ijobs',

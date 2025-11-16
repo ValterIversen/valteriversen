@@ -10,8 +10,26 @@
         "meconheca": "Me conheça melhor",
         "casossucesso": "Veja alguns projetos pessoais",
         "sobre1": "Sou um Analista de qualidade, atualmente me especializando testes agéis e com vasta experiência Robot Framework e Selenium, com quase 4 anos de experiência em uma das maiores software houses da América Latina.",
-        "sobre2": "Atualmente trabalho com testes manuais e automatizados de uma variedade de produtos, em diferentes linguagens e plataformas. Recentemente, comecei a liderar uma equipe de automação, onde sou responsável por tomar decisões estratégicas, definir metas e reportar resultados de forma contínua aos nossos líderes.",
+        "sobre2": "Atualmente sou responsável por estruturar o setor de qualidade, liderando e orientando o time de QA, definindo padrões e processos que apoiam as entregas dos times de desenvolvimento, além de estabelecer métricas para acompanhar e garantir a qualidade dos produtos.",
         "sobre3": "Acredito que a cultura e processos de qualidade é um dos pilares mais importantes no ciclo de vida de um software."
+    },
+    "k6":
+    {
+        "title": "Teste de carga com K6 e Grafana",
+        "subtitle": "Projeto de testes de carga, estresse e ruptura usando K6 e dashboard com Grafana",
+        "visit": "Acesse o projeto"
+    },
+    "testlink":
+    {
+        "title": "Testlink com um click",
+        "subtitle": "Ambiente completo do testlink de forma rápida e fácil com docker.",
+        "visit": "Acesse o projeto"
+    },
+    "automationlibrary":
+    {
+        "title": "Biblioteca própria de automação para android",
+        "subtitle": "Biblioteca Python para automação de UI em Android usando uiautomator2, compatível com o Robot Framework.",
+        "visit": "Acesse a biblioteca"
     },
     "testautomation":
     {
