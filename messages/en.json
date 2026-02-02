@@ -11,7 +11,7 @@
       "casossucesso": "Take a look at some personal projects",
       "sobre1": "I am a Quality Assurance Analyst with 5 years of experience, specializing in Agile testing and test automation, with strong expertise in Robot Framework and Selenium.",
       "sobre2": "I built my technical foundation over nearly 4 years at one of the largest software houses in Latin America, working on large-scale projects, complex environments, and multidisciplinary teams. Currently, for the past 1 year at a startup, I play a strategic role in strengthening and maturing the quality area.",
-      "sobre3": "I am responsible for building the QA function from the ground up, acting as a technical reference, leading and mentoring the QA team, defining testing processes, standards, and automation strategies, as well as creating and monitoring quality metrics that ensure continuous product quality and support development and product decision-making."
+      "sobre3": "I am currently responsible for building the QA function from the ground up, acting as a technical reference, leading and mentoring the team, defining processes, testing standards, and automation strategies, as well as creating and tracking metrics that ensure continuous product quality and support development and product decision-making."
   },
   "k6": {
     "title": "Load testing with K6 and Grafana",
