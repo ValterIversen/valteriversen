@@ -9,9 +9,9 @@
       "vamosconversar": "Let's talk?",
       "meconheca": "Get to know me better",
       "casossucesso": "Take a look at some personal projects",
-      "sobre1": "I'm a Quality assurance, currently specializing in agile testing, with extensive experience in Robot Framework and Selenium, and nearly 5 years of experience at one of the largest software houses in Latin America.",
-      "sobre2": "Currently, I'm responsible for structuring the quality department, leading and guiding the QA team, defining standards and processes that support the development teams’ deliveries, and establishing metrics to monitor and ensure product quality.",
-      "sobre3": "I believe that quality culture and processes are among the most important pillars in the software development lifecycle."
+      "sobre1": "I am a Quality Assurance Analyst with 5 years of experience, specializing in Agile testing and test automation, with strong expertise in Robot Framework and Selenium.",
+      "sobre2": "I built my technical foundation over nearly 4 years at one of the largest software houses in Latin America, working on large-scale projects, complex environments, and multidisciplinary teams. Currently, for the past 1 year at a startup, I play a strategic role in strengthening and maturing the quality area.",
+      "sobre3": "I am responsible for building the QA function from the ground up, acting as a technical reference, leading and mentoring the QA team, defining testing processes, standards, and automation strategies, as well as creating and monitoring quality metrics that ensure continuous product quality and support development and product decision-making."
   },
   "k6": {
     "title": "Load testing with K6 and Grafana",
